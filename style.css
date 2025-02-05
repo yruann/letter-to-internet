@@ -4,7 +4,7 @@ body, a {
 	font-family: 'DotGothic16';
 	font-size: 16px;
 	/* letter-spacing: 0.05ch; */
-	line-height: 1;
+	line-height: 1.2;
 }
 
 main {
@@ -31,7 +31,40 @@ main {
 	display: none;
 	object-fit: cover;
 }
-
 video.hover-media {
 	max-width: 100%;
+}
+.portfolio {
+	text-decoration: none;
+}
+
+a:first-of-type:hover, a:nth-of-type(11):hover {
+	color: #8358df;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a:nth-of-type(2):hover, a:nth-of-type(9):hover{
+	color: #5868df;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 29px;
+}
+a:nth-of-type(3):hover, a:nth-of-type(7):hover{
+	color: #e72db9;
+ 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 50px;
+}
+a:nth-of-type(4):hover, a:nth-of-type(12):hover{
+	color: #5868df;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 35px;
+}
+a:nth-of-type(5):hover, a:nth-of-type(8):hover, a:nth-of-type(13):hover{
+	color: #683b1e;
+ 	font-family:cursive;
+	font-size: 40px;
+}
+a:nth-of-type(6):hover, a:nth-of-type(10):hover{
+	color: #5f8e90;
+ 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 65px;
 }
